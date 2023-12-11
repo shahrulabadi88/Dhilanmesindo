@@ -1,0 +1,146 @@
+
+#home {
+  background-color: rgb(253, 247, 247);
+}
+
+@import url('https://fonts.cdnfonts.com/css/lithos-pro-extralight');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
+.welcome{
+  height: 720px;
+  padding-top: 12rem;
+  background-color: #ffbd66a4;
+  background-image: url(img/pertama.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+#come{
+  font-family: 'Waterfall', cursive;
+  color: white;
+}
+
+.jumbotron {
+  height: 720px;
+  padding-top: 13rem;
+  background-color: #ffbd66a4;
+  background-image: url(img/cover.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-jumptour {
+  background-color: #cef32a;
+  border-radius: 0px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 40px;
+  padding: 8px 60px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.4s ease 0s;
+  z-index: 222;
+  opacity: 0.9;
+}
+
+.btn-jumptour:hover {
+  background: transparent;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: aku;
+  src: url(Font/LithosPro-Regular.otf);
+}
+
+@import url('https://fonts.cdnfonts.com/css/misterly');
+
+h1 {
+  font-family: 'Misterly', sans-serif;
+}
+p {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#story {
+  height: 720px;
+  padding-top: 16rem;
+  background-color: #ffbd66a4;
+  background-image: url(img/coverabout.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#hal2 {
+  font-family: 'Courier Prime', monospace;
+  color: white;
+}
+
+#about {
+  height: 720px;
+  padding-top: 16rem;
+  background-color: #ffbd66a4;
+  background-image: url(img/coverhistori.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#product {
+  height: 720px;
+  padding-top: 16rem;
+  background-color: #ffbd66a4;
+  background-image: url(img/apelcelupijocopy.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-landing {
+  background-color: #cef32a;
+  border-radius: 0px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 8px 60px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.4s ease 0s;
+  z-index: 222;
+  opacity: 0.9;
+}
+
+.btn-landing:hover {
+  color: #fff;
+  background: transparent;
+  text-decoration: none;
+}
+
+#contact {
+  height: 720px;
+  padding-top: 16rem;
+  background-color: #ffbd66a4;
+  background-image: url(img/contactus.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  height: auto;
+  padding-top: 1rem;
+}
+
+section {
+  padding-top: 5rem;
+  height: auto;
+}

@@ -1,0 +1,17 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_REFERER} !^http://dhilanmesindo.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://dhilanmesindo.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.dhilanmesindo.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.dhilanmesindo.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://dhilanmesindo.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://dhilanmesindo.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.dhilanmesindo.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.dhilanmesindo.com$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp)$ - [F,NC]
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^dhilanmesindo\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.dhilanmesindo\.com$
+RewriteRule ^(.*)$ "https\:\/\/dhilanmesindo\.com\/$1" [R=301,L]
+

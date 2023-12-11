@@ -49,6 +49,7 @@
 }
 
 .btn-jumptour:hover {
+  background: transparent;
   text-decoration: none;
 }
 
@@ -120,7 +121,6 @@ p {
 
 .btn-landing:hover {
   color: #fff;
-  background: transparent;
   text-decoration: none;
 }
 
